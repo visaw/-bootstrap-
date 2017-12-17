@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: '思源细黑';
+    src: url(fonts/SourceHanSansCN-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: '思源粗黑';
+    src: url(fonts/SourceHanSansCN-Heavy.otf);
+}
+
+html {
+    font-family:  "思源细黑", "思源粗黑" ;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 42px;
+    background-color: #222;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clear-box {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    height: 42px;
+    display: block;
+}
+
+.nav-list li {
+    float: left;
+    line-height: 42px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.nav-list a {
+    font-family: "思源细黑";
+    letter-spacing: -1px;
+    font-weight: 900;
+    color: #9d9d9d;
+}
+
+.nav-list li:first-child {
+    font-size: 18px;
+}
+
+.nav-list li:last-child {
+    float: right;
+    text-align: right;
+}
+
+.nav-list a:hover {
+    color: #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 420px;
+    background-color: #3b1d44;
+    margin-top: 40px;
+    padding-top: 70px;
+}
+
+.big-font h1{
+    font-family: "思源粗黑";
+    font-size: 96px;
+    letter-spacing: -2px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
+.banner h2{
+    font-family: "思源细黑";
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px
+}
+
+.big-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.big-btn a {
+    display: inline-block;
+    padding: 12px 30px;
+    color: #fff;
+    background-color: #377bb5;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    font-weight: 900;
+    box-shadow: 0 5px 0 #2d6594;
+}
+
+.big-btn a:hover {
+    background-color: #2b618e;
+    box-shadow: 0 5px 0 #2b618e;
+}
+
+.document {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.document a{
+    color: #999;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight: 900;
+}
+
+.document a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.social {
+    height: 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    box-shadow: 0 1px 0 #ddd;
+}
+
+.sqa::before {
+    content: url(images/weixin.png);
+    vertical-align: middle;
+}
+
+.weibo::before {
+    content: url(images/weibo.png);
+    vertical-align: middle;
+}
+
+.social a {
+    color: #555;
+    font-weight: bolder;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
+.middle {
+    color: #ccc;
+}
+
+.title {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.title h2 {
+    font-size: 42px;
+    letter-spacing: -1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    line-height: 1.1em;
+    color: #333;
+}
+
+.title p {
+    margin: 0 0 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #333;
+    letter-spacing: -1px;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid #eee;
+    margin: 20px auto;
+}
+
+.main .project {
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+}
+
+.main .project>div {
+    width: 84%;
+    padding: 2%;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    min-height: 350px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+}
+
+.caption {
+    margin: 10px auto 0;
+    width: 86%;
+    letter-spacing: -1px;
+}
+
+.caption h3 {
+    height: 100px;
+}
+
+.caption a {
+    color: #337ab7;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.caption a:hover {
+    color: #26537a;
+}
+
+.caption a small {
+    font-size: 65%;
+    color: #777;
+}
+
+.project p {
+    margin: 10px 0 0 0;
+    color: #555;
+    line-height: 1.4em;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 1px solid #e5e5e5;
+    padding: 36px 0;
+}
+
+.logo-field {
+    float: left;
+    width: 46%;
+    margin-left: 20px;
+}
+
+.logo-field p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.link-field {
+    float: right;
+    width: 40%;
+}
+
+.link-field>div {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+.link-field .link-title {
+    color: #563d7c;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.link-field .link-item a {
+    color: #777;
+    font-size: 14px;
+    line-height: 1em;
+}
+
+.link-field .link-item a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin: 20px;
+    padding: 20px 20px 0;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #777;
+}
+
+.copyright a {
+    color: #777;
+    font-weight: 900;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
